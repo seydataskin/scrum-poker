@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import AddStory from "./pages/AddStory";
+import Developer from "./pages/Developer";
 import ScrumMaster from "./pages/ScrumMaster";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route path="/scrummaster">
               <ScrumMaster />
+            </Route>
+            <Route path="/developer">
+              <Developer />
             </Route>
           </Switch>
         </div>
