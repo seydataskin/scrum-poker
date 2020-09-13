@@ -132,7 +132,8 @@ function ScrumMaster() {
         item.status = true;
         item.isVoted = true;
         if (i !== stories.length - 1) stories[i + 1].status = true;
-
+        else history.push("/success");
+        
         setLocalStorage(SESSION_ITEM_NAME, stories);
 
         setInfo("Started new story voting");
