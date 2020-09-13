@@ -3,6 +3,7 @@ import "./App.css";
 import AddStory from "./pages/AddStory";
 import Developer from "./pages/Developer";
 import ScrumMaster from "./pages/ScrumMaster";
+import Success from "./pages/Success";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/developer">
               <Developer />
+            </Route>
+            <Route path="/success">
+              <Success />
             </Route>
           </Switch>
         </div>
