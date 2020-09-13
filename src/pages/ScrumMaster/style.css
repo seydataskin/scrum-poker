@@ -1,0 +1,18 @@
+.sections {
+    min-height: 400px;
+    border: 1px solid black;
+    margin-left: 10px;
+  }
+  
+  .points {
+    float: left;
+    margin: 30px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    
+    padding-top: 6px;
+  }
+  
