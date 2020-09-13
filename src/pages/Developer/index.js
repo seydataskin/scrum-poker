@@ -71,7 +71,7 @@ function Developer() {
         <br></br>
         <Row>
           <Col className="sections">
-            <Table bordered>
+            <Table>
               <thead>
                 <tr>
                   <th>Story</th>
